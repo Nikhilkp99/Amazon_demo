@@ -1,7 +1,5 @@
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from Demo_Page.Page_Objects.locators import Locators
+import time
+from Demo_Page.Page_Objects.locators import AdminLocators, UserLocators
 from Demo_Page.Utilities.test_base import TestBase
 
 
@@ -12,16 +10,34 @@ class LoginPage(TestBase):
 
     def open(self, url):
         self.driver.get(url)
-        self.wait_for_element(Locators.USERNAME_INPUT)
+        self.wait_for_element(AdminLocators.USERNAME_INPUT)
 
     def set_username(self, username):
-        self.driver.find_element(*Locators.USERNAME_INPUT).send_keys(username)
+        self.driver.find_element(*AdminLocators.USERNAME_INPUT).send_keys(username)
 
     def set_password(self, password):
-        self.driver.find_element(*Locators.PASSWORD_INPUT).send_keys(password)
+        self.driver.find_element(*AdminLocators.PASSWORD_INPUT).send_keys(password)
 
     def click_login(self):
-        self.driver.find_element(*Locators.LOGIN_BUTTON).click()
+        self.driver.find_element(*AdminLocators.LOGIN_BUTTON).click()
+
+    def assert_dashboard_title(self):
+        assert self.driver.find_element(*AdminLocators.ASSERT_VALUE).text == "Dashboard", "Dashboard title not found"
 
     def wait_for_main_page(self):
-        self.wait_for_element(Locators.MAIN_PAGE)
+        self.wait_for_element(AdminLocators.MAIN_PAGE)
+
+    def click_logout(self):
+        self.driver.find_element(*AdminLocators.LOGOUT_DROPDOWN).click()
+        time.sleep(1)
+        self.driver.find_element(*AdminLocators.LOGOUT_BUTTON).click()
+
+
+
+
+
+
+
+
+
+
