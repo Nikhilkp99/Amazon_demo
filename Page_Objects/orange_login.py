@@ -1,5 +1,5 @@
 import time
-from Demo_Page.Page_Objects.locators import AdminLocators, UserLocators
+from Demo_Page.Page_Objects.locators import AdminLocators
 from Demo_Page.Utilities.test_base import TestBase
 
 
@@ -31,13 +31,3 @@ class LoginPage(TestBase):
         self.driver.find_element(*AdminLocators.LOGOUT_DROPDOWN).click()
         time.sleep(1)
         self.driver.find_element(*AdminLocators.LOGOUT_BUTTON).click()
-
-
-
-
-
-
-
-
-
-

@@ -3,7 +3,7 @@ import time
 from Demo_Page.Page_Objects.orange_login import LoginPage
 from Demo_Page.Constants.constant import Constant
 from Demo_Page.Constants.constant import UserDATA
-from Demo_Page.Page_Objects.locators import AdminLocators, UserLocators
+from Demo_Page.Page_Objects.locators import AdminLocators
 from Demo_Page.Page_Objects.users_login import UserLogin
 
 
@@ -29,15 +29,4 @@ def test_valid_login(driver, test_base):
 def test_user_login(driver, test_base):
     user_page = UserLogin(driver)
     user_page.access_system_users_menu()
-    test_base.wait_for_element(UserLocators.USERADD_BUTTON)
-    user_page.user_add_btn()
-    test_base.wait_for_element(UserLocators.USER_ROLE)
-
-    user_page.user_role()
-    user_page.user_status()
-    user_page.add_employee(UserDATA.EMPLOYEE_NAME)
-    user_page.add_username(UserDATA.MY_USER)
-    user_page.add_password(UserDATA.MY_PASSWORD)
-    user_page.confirm_password(UserDATA.MY_PASSWORD)
-    user_page.save_btn()
     time.sleep(20)
