@@ -1,12 +1,5 @@
 class Constant:
-    BASE_URL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
-    USERNAME = "Admin"
-    PASSWORD = "admin123"
-    ASSERT_TXT = "Dashboard"
+    BASE_URL = "https://www.amazon.in"
+    SEARCH_ITEM = "iphone 13"
 
-
-class UserDATA:
-    EMPLOYEE_NAME = "Ravi M B"
-    MY_USER = "Nikhil"
-    MY_PASSWORD = "Nikhil@99"
 

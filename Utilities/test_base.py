@@ -14,6 +14,8 @@ class TestBase:
         wait = WebDriverWait(self.driver, timeout)
         wait.until(EC.presence_of_element_located(locator))
 
-    # def select_option(self, *locator, option):
-    #     select = Select(self.driver.find_element(*locator))
-    #     select.select_by_visible_text(option)
+    def wait_for_element_interactable(self, locator, timeout=20):
+        wait = WebDriverWait(self.driver, timeout)
+        element = wait.until(EC.element_to_be_clickable(locator))
+        return element
+
