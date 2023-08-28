@@ -1,6 +1,8 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
+import logging
+import inspect
 
 
 class TestBase:
@@ -18,4 +20,14 @@ class TestBase:
         wait = WebDriverWait(self.driver, timeout)
         element = wait.until(EC.element_to_be_clickable(locator))
         return element
+
+    def get_logger(self):
+        calling_function_name = inspect.stack()[1][3]
+        logger = logging.getLogger(calling_function_name)
+        logger.setLevel(logging.INFO)
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        file_handler = logging.FileHandler('logfile.log')
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
+        return logger
 
