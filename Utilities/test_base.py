@@ -3,6 +3,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 import logging
 import inspect
+import os
+from selenium.webdriver.common.by import By
 
 
 class TestBase:
@@ -26,8 +28,33 @@ class TestBase:
         logger = logging.getLogger(calling_function_name)
         logger.setLevel(logging.INFO)
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-        file_handler = logging.FileHandler('logfile.log')
+
+        report_dir = os.path.join(os.getcwd(), "..", "Reports")
+        log_dir = os.path.join(report_dir, "Logs")
+        if not os.path.exists(log_dir):
+            os.makedirs(log_dir)
+        log_file_path = os.path.join(log_dir, "logfile.log")
+
+        file_handler = logging.FileHandler(log_file_path)
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
         return logger
+
+    def capture_screenshot(self, name):
+        report_dir = os.path.join(os.getcwd(), "..", "Reports")  # Move one level up (..)
+        screenshot_dir = os.path.join(os.getcwd(), "..", "Reports", "Screenshots")
+        # log_dir = os.path.join(report_dir, "Logs")
+
+        if not os.path.exists(screenshot_dir):
+            os.makedirs(screenshot_dir)
+        # if not os.path.exists(log_dir):
+            # os.makedirs(log_dir)
+
+        screenshot_path = os.path.join(screenshot_dir, f"{name}.png")
+        # log_file_path = os.path.join(log_dir, "logfiles.log")
+
+        self.driver.save_screenshot(screenshot_path)
+        # self.get_logger().addHandler(logging.FileHandler(log_file_path))
+
+
 

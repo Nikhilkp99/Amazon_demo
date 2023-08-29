@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>report.html</title>
+    <title>test_report.html</title>
     <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
   <body onLoad="init()">
     <script>/* This Source Code Form is subject to the terms of the Mozilla Public
@@ -252,10 +252,10 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
     notFoundMessage.hidden = !allRowsHidden;
 }
 </script>
-    <h1>report.html</h1>
-    <p>Report generated on 28-Aug-2023 at 14:18:50 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <h1>test_report.html</h1>
+    <p>Report generated on 29-Aug-2023 at 13:54:40 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Summary</h2>
-    <p>1 tests ran in 91.19 seconds. </p>
+    <p>1 tests ran in 70.41 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -270,14 +270,17 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_amazon.py::test_search</td>
-          <td class="col-duration">88.71</td>
+          <td class="col-name">Tests/test_amazon.py::test_search</td>
+          <td class="col-duration">67.90</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_search:test_amazon.py:17 Starting the test_search function
-INFO     test_search:test_amazon.py:20 Opening URL: https://www.amazon.in
-INFO     test_search:test_amazon.py:24 Searched item: iphone 13
-INFO     test_search:test_amazon.py:32 Text in the item: Apple iPhone 13 (128GB) - Blue
-INFO     test_search:test_amazon.py:39 Text in the cart: Apple iPhone 13 (128GB) - Blue
-INFO     test_search:test_amazon.py:43 Finishing the test_search function<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_search:test_amazon.py:18 Starting the test_search function
+INFO     test_search:test_amazon.py:24 Opening URL: https://www.amazon.in
+INFO     test_search:test_amazon.py:27 Capturing screenshot: After opening website
+INFO     test_search:test_amazon.py:32 Searched item: iphone 13
+INFO     test_search:test_amazon.py:41 Text in the item: Apple iPhone 13 (128GB) - Blue
+INFO     test_search:test_amazon.py:43 Capturing screenshot: After selecting an item
+INFO     test_search:test_amazon.py:53 Text in the cart: Apple iPhone 13 (128GB) - Blue
+INFO     test_search:test_amazon.py:57 Capturing screenshot: After adding item to cart
+INFO     test_search:test_amazon.py:62 Finishing the test_search function<br/></div></td></tr></tbody></table></body></html>
