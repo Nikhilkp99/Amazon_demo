@@ -1,51 +1,18 @@
-2023-08-29 13:30:04,347 - test_search - INFO - Starting the test_search function
-2023-08-29 13:30:04,347 - test_search - INFO - Opening URL: https://www.amazon.in
-2023-08-29 13:30:09,041 - test_search - INFO - Capturing screenshot: After opening website
-2023-08-29 13:30:09,402 - test_search - INFO - Searched item: iphone 13
-2023-08-29 13:30:22,054 - test_search - INFO - Text in the item: Apple iPhone 13 (128GB) - Blue
-2023-08-29 13:30:22,055 - test_search - INFO - Capturing screenshot: After selecting an item
-2023-08-29 13:30:31,720 - test_search - INFO - Text in the cart: Apple iPhone 13 (128GB) - Blue
-2023-08-29 13:30:31,721 - test_search - INFO - Capturing screenshot: After adding item to cart
-2023-08-29 13:30:36,864 - test_search - INFO - Finishing the test_search function
-2023-08-29 13:36:38,165 - test_search - INFO - Starting the test_search function
-2023-08-29 13:36:38,166 - test_search - INFO - Opening URL: https://www.amazon.in
-2023-08-29 13:36:59,534 - test_search - INFO - Capturing screenshot: After opening website
-2023-08-29 13:36:59,917 - capture_screenshot - INFO - Screenshot captured: F:\pythonProject1\practice\Demo_Page\Tests\..\Reports\Screenshots\website_opened_1.png
-2023-08-29 13:36:59,939 - test_search - INFO - Searched item: iphone 13
-2023-08-29 13:37:20,004 - test_search - INFO - Text in the item: Apple iPhone 13 (128GB) - Blue
-2023-08-29 13:37:20,004 - test_search - INFO - Capturing screenshot: After selecting an item
-2023-08-29 13:37:20,204 - capture_screenshot - INFO - Screenshot captured: F:\pythonProject1\practice\Demo_Page\Tests\..\Reports\Screenshots\item_selected_2.png
-2023-08-29 13:37:20,204 - capture_screenshot - INFO - Screenshot captured: F:\pythonProject1\practice\Demo_Page\Tests\..\Reports\Screenshots\item_selected_2.png
-2023-08-29 13:37:31,295 - test_search - INFO - Text in the cart: Apple iPhone 13 (128GB) - Blue
-2023-08-29 13:37:31,295 - test_search - INFO - Capturing screenshot: After adding item to cart
-2023-08-29 13:37:31,513 - capture_screenshot - INFO - Screenshot captured: F:\pythonProject1\practice\Demo_Page\Tests\..\Reports\Screenshots\item_added_to_cart_3.png
-2023-08-29 13:37:31,513 - capture_screenshot - INFO - Screenshot captured: F:\pythonProject1\practice\Demo_Page\Tests\..\Reports\Screenshots\item_added_to_cart_3.png
-2023-08-29 13:37:31,513 - capture_screenshot - INFO - Screenshot captured: F:\pythonProject1\practice\Demo_Page\Tests\..\Reports\Screenshots\item_added_to_cart_3.png
-2023-08-29 13:37:36,514 - test_search - INFO - Finishing the test_search function
-2023-08-29 13:38:35,366 - test_search - INFO - Starting the test_search function
-2023-08-29 13:38:35,367 - test_search - INFO - Opening URL: https://www.amazon.in
-2023-08-29 13:39:10,141 - test_search - INFO - Capturing screenshot: After opening website
-2023-08-29 13:39:10,396 - test_search - INFO - Searched item: iphone 13
-2023-08-29 13:39:36,411 - test_search - INFO - Text in the item: Apple iPhone 13 (128GB) - Blue
-2023-08-29 13:39:36,411 - test_search - INFO - Capturing screenshot: After selecting an item
-2023-08-29 13:39:43,232 - test_search - INFO - Text in the cart: Apple iPhone 13 (128GB) - Blue
-2023-08-29 13:39:43,232 - test_search - INFO - Capturing screenshot: After adding item to cart
-2023-08-29 13:39:48,372 - test_search - INFO - Finishing the test_search function
-2023-08-29 13:43:33,473 - test_search - INFO - Starting the test_search function
-2023-08-29 13:43:33,473 - test_search - INFO - Opening URL: https://www.amazon.in
-2023-08-29 13:43:58,170 - test_search - INFO - Capturing screenshot: After opening website
-2023-08-29 13:43:58,412 - test_search - INFO - Searched item: iphone 13
-2023-08-29 13:44:19,804 - test_search - INFO - Text in the item: Apple iPhone 13 (128GB) - Blue
-2023-08-29 13:44:19,804 - test_search - INFO - Capturing screenshot: After selecting an item
-2023-08-29 13:44:30,525 - test_search - INFO - Text in the cart: Apple iPhone 13 (128GB) - Blue
-2023-08-29 13:44:30,525 - test_search - INFO - Capturing screenshot: After adding item to cart
-2023-08-29 13:44:35,684 - test_search - INFO - Finishing the test_search function
-2023-08-29 13:48:12,606 - test_search - INFO - Starting the test_search function
-2023-08-29 13:48:12,607 - test_search - INFO - Opening URL: https://www.amazon.in
-2023-08-29 13:48:16,574 - test_search - INFO - Capturing screenshot: After opening website
-2023-08-29 13:48:16,923 - test_search - INFO - Searched item: iphone 13
-2023-08-29 13:48:26,973 - test_search - INFO - Text in the item: Apple iPhone 13 (128GB) - Blue
-2023-08-29 13:48:26,973 - test_search - INFO - Capturing screenshot: After selecting an item
-2023-08-29 13:48:32,881 - test_search - INFO - Text in the cart: Apple iPhone 13 (128GB) - Blue
-2023-08-29 13:48:32,881 - test_search - INFO - Capturing screenshot: After adding item to cart
-2023-08-29 13:48:38,041 - test_search - INFO - Finishing the test_search function
+2023-08-31 19:01:08,233 - test_search - INFO - Starting the test_search function
+2023-08-31 19:01:08,233 - test_search - INFO - Opening URL: https://www.amazon.in
+2023-08-31 19:01:20,207 - test_search - INFO - Capturing screenshot: After opening website
+2023-08-31 19:01:20,385 - test_search - INFO - Searched item: iphone 13
+2023-08-31 19:01:30,542 - test_search - INFO - Text in the item: Apple iPhone 14 (128 GB) - Starlight
+2023-08-31 19:01:30,543 - test_search - INFO - Capturing screenshot: After selecting an item
+2023-08-31 19:01:37,547 - test_search - INFO - Text in the cart: Apple iPhone 14 (128 GB) - Starlight
+2023-08-31 19:01:37,547 - test_search - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 19:01:37,666 - test_search - INFO - Finishing the test_search function
+2023-08-31 19:01:51,977 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 19:02:00,995 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 19:02:01,460 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 19:02:05,322 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 19:02:26,986 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 19:02:26,986 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 19:02:35,872 - test_search_2 - INFO - Price in the cart: 1,07,990
+2023-08-31 19:02:35,872 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 19:02:37,979 - test_search_2 - INFO - Finishing the test_search_2 function

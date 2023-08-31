@@ -1,0 +1,182 @@
+2023-08-31 16:15:20,856 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 16:15:32,998 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 16:15:33,392 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 16:15:42,616 - test_search_2 - INFO - Text in the item: 1,07,990
+2023-08-31 16:15:58,072 - test_search_2 - INFO - Text in the item: Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone/iPad; Starlight
+2023-08-31 16:15:58,073 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 16:16:07,793 - test_search_2 - INFO - Text in the cart: Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboa…
+2023-08-31 16:16:07,794 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 16:16:12,989 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 16:18:00,129 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 16:18:02,283 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 16:18:02,783 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 16:18:06,410 - test_search_2 - INFO - Text in the item: 1,07,990
+2023-08-31 16:18:20,152 - test_search_2 - INFO - Text in the item: Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone/iPad; Starlight
+2023-08-31 16:18:20,153 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 16:18:30,582 - test_search_2 - INFO - Text in the cart: Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboa…
+2023-08-31 16:18:30,582 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 16:18:35,746 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 16:45:59,702 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 16:46:10,959 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 16:46:11,703 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 16:46:16,709 - test_search_2 - INFO - Price in the item: 1,07,990
+2023-08-31 16:46:29,761 - test_search_2 - INFO - Price in the item: Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone/iPad; Starlight
+2023-08-31 16:47:35,727 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 16:47:45,668 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 16:47:45,892 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 16:47:49,870 - test_search_2 - INFO - Price in the item: 1,07,990
+2023-08-31 16:47:57,093 - test_search_2 - INFO - Price in the item: 1,07,990
+2023-08-31 16:47:57,146 - test_search_2 - INFO - Text in the item: Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone/iPad; Starlight
+2023-08-31 16:47:57,146 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 16:48:04,208 - test_search_2 - INFO - Text in the cart: Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboa…
+2023-08-31 16:48:04,208 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 16:48:09,356 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 17:02:29,399 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:02:52,007 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:02:52,304 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:02:58,540 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:03:10,228 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:03:10,228 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:03:22,809 - test_search_2 - INFO - Price in the cart:   
+2023-08-31 17:03:22,809 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 17:03:24,976 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 17:05:18,151 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:05:28,399 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:05:28,636 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:05:31,633 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:05:39,431 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:05:39,431 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:05:45,935 - test_search_2 - INFO - Price in the cart:   
+2023-08-31 17:05:45,935 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 17:05:48,076 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 17:08:11,613 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:08:23,169 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:08:23,534 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:08:26,639 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:08:33,851 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:08:33,852 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:08:41,003 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 17:08:41,003 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 17:08:43,211 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 17:09:34,757 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:09:43,699 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:09:43,936 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:09:47,063 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:09:53,739 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:09:53,740 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:10:00,557 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 17:18:23,879 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:18:39,638 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:18:39,965 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:18:44,556 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:18:57,074 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:18:57,074 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:19:03,935 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 17:23:46,899 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:23:52,413 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:23:52,663 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:23:56,291 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:24:07,554 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:24:07,554 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:24:13,249 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 17:31:13,883 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:31:16,889 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:31:17,426 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:31:23,120 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:31:30,894 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:31:30,894 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:31:39,280 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 17:39:35,391 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:39:45,711 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:39:47,386 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:39:54,598 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:40:02,068 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:40:02,069 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:40:08,915 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 17:40:08,915 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 17:40:11,052 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 17:43:38,206 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:43:51,542 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:43:51,783 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:43:55,960 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:44:04,638 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:44:04,639 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:44:11,609 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 17:44:11,609 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 17:44:13,779 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 17:47:03,691 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:47:15,724 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:47:15,996 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:47:18,723 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:47:25,442 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:47:25,442 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:47:32,095 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 17:47:32,095 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 17:47:34,267 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 17:52:57,507 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 17:53:09,170 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 17:53:09,418 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 17:53:12,885 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 17:53:22,754 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 17:53:22,754 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 17:53:29,099 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 17:53:29,099 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 17:53:31,255 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 17:59:37,234 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 18:00:51,472 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 18:01:03,969 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 18:01:04,191 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 18:01:07,847 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 18:01:15,456 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 18:01:15,456 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 18:01:21,955 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 18:01:21,956 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 18:01:24,145 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 18:02:19,759 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 18:02:38,482 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 18:02:38,856 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 18:02:42,471 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 18:02:49,161 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 18:02:49,161 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 18:02:54,315 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 18:06:43,390 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 18:07:31,956 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 18:07:32,211 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 18:07:37,755 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 18:07:59,140 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 18:07:59,140 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 18:08:11,263 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 18:08:11,263 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 18:08:13,417 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 18:12:37,193 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 18:12:41,551 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 18:12:41,855 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 18:12:47,937 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 18:12:55,730 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 18:12:55,730 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 18:13:00,566 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 18:13:00,567 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 18:13:02,758 - test_search_2 - INFO - Finishing the test_search_2 function
+2023-08-31 18:18:50,010 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 18:19:01,932 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 18:19:02,164 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 18:19:12,891 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 18:19:27,764 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 18:19:27,765 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 18:19:35,749 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 18:34:24,350 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 18:34:38,843 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 18:34:39,090 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 18:34:44,103 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 18:34:53,324 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 18:34:53,324 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 18:35:08,888 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 18:35:58,643 - test_search_2 - INFO - Starting the test_search_2 function
+2023-08-31 18:36:01,717 - test_search_2 - INFO - Capturing screenshot: After opening website
+2023-08-31 18:36:02,118 - test_search_2 - INFO - Searched item: macbook air m2
+2023-08-31 18:36:05,536 - test_search_2 - INFO - Price in the search item: 1,07,990
+2023-08-31 18:36:13,811 - test_search_2 - INFO - Price in the selected item: 1,07,990
+2023-08-31 18:36:13,811 - test_search_2 - INFO - Capturing screenshot: After selecting an item
+2023-08-31 18:36:21,546 - test_search_2 - INFO - Price in the cart:   1,07,990.00
+2023-08-31 18:36:21,546 - test_search_2 - INFO - Capturing screenshot: After adding item to cart
+2023-08-31 18:36:23,752 - test_search_2 - INFO - Finishing the test_search_2 function

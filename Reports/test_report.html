@@ -253,10 +253,10 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>test_report.html</h1>
-    <p>Report generated on 29-Aug-2023 at 13:54:40 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 31-Aug-2023 at 19:02:40 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Summary</h2>
-    <p>1 tests ran in 70.41 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 101.14 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -271,16 +271,35 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">Tests/test_amazon.py::test_search</td>
-          <td class="col-duration">67.90</td>
+          <td class="col-duration">40.22</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_search:test_amazon.py:18 Starting the test_search function
-INFO     test_search:test_amazon.py:24 Opening URL: https://www.amazon.in
-INFO     test_search:test_amazon.py:27 Capturing screenshot: After opening website
-INFO     test_search:test_amazon.py:32 Searched item: iphone 13
-INFO     test_search:test_amazon.py:41 Text in the item: Apple iPhone 13 (128GB) - Blue
-INFO     test_search:test_amazon.py:43 Capturing screenshot: After selecting an item
-INFO     test_search:test_amazon.py:53 Text in the cart: Apple iPhone 13 (128GB) - Blue
-INFO     test_search:test_amazon.py:57 Capturing screenshot: After adding item to cart
-INFO     test_search:test_amazon.py:62 Finishing the test_search function<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_search:test_amazon.py:20 Starting the test_search function
+INFO     test_search:test_amazon.py:26 Opening URL: https://www.amazon.in
+INFO     test_search:test_amazon.py:29 Capturing screenshot: After opening website
+INFO     test_search:test_amazon.py:34 Searched item: iphone 13
+INFO     test_search:test_amazon.py:43 Text in the item: Apple iPhone 14 (128 GB) - Starlight
+INFO     test_search:test_amazon.py:45 Capturing screenshot: After selecting an item
+INFO     test_search:test_amazon.py:55 Text in the cart: Apple iPhone 14 (128 GB) - Starlight
+INFO     test_search:test_amazon.py:59 Capturing screenshot: After adding item to cart
+INFO     test_search:test_amazon.py:62 Finishing the test_search function<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Tests/test_amazon2.py::test_search_2</td>
+          <td class="col-duration">55.86</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>1,07,990
+1,07,990
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_search_2:test_amazon2.py:21 Starting the test_search_2 function
+INFO     test_search_2:test_amazon2.py:26 Capturing screenshot: After opening website
+INFO     test_search_2:test_amazon2.py:31 Searched item: macbook air m2
+INFO     test_search_2:test_amazon2.py:36 Price in the search item: 1,07,990
+INFO     test_search_2:test_amazon2.py:45 Price in the selected item: 1,07,990
+INFO     test_search_2:test_amazon2.py:50 Capturing screenshot: After selecting an item
+INFO     test_search_2:test_amazon2.py:63 Price in the cart: 1,07,990
+INFO     test_search_2:test_amazon2.py:67 Capturing screenshot: After adding item to cart
+INFO     test_search_2:test_amazon2.py:71 Finishing the test_search_2 function<br/></div></td></tr></tbody></table></body></html>

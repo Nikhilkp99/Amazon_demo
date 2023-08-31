@@ -14,7 +14,9 @@ def test_base(driver):
 
 @pytest.mark.usefixtures("test_base")
 def test_search(driver, test_base):
-    logger = test_base.get_logger()
+    test_base.clear_previous_reports_and_screenshots()
+
+    logger = test_base.get_logger("test_amazon")
     logger.info("Starting the test_search function")
 
     screenshot_counter = 1
@@ -25,7 +27,7 @@ def test_search(driver, test_base):
     search_item.open(Constant.BASE_URL)
 
     logger.info("Capturing screenshot: After opening website")
-    test_base.capture_screenshot(f"website_opened_{screenshot_counter}")
+    test_base.capture_screenshot(f"website_opened_{screenshot_counter}", "test_search")
     screenshot_counter += 1
 
     test_base.wait_for_element(AmazonLocators.SEARCH_BAR)
@@ -41,7 +43,7 @@ def test_search(driver, test_base):
     logger.info("Text in the item: %s", text_in_item)
 
     logger.info("Capturing screenshot: After selecting an item")
-    test_base.capture_screenshot(f"item_selected_{screenshot_counter}")
+    test_base.capture_screenshot(f"item_selected_{screenshot_counter}", "test_search")
     screenshot_counter += 1
 
     search_item.add_to_cart()
@@ -55,15 +57,16 @@ def test_search(driver, test_base):
     assert text_in_item == text_in_cart
 
     logger.info("Capturing screenshot: After adding item to cart")
-    test_base.capture_screenshot(f"item_added_to_cart_{screenshot_counter}")
+    test_base.capture_screenshot(f"item_added_to_cart_{screenshot_counter}", "test_search")
     screenshot_counter += 1
-
-    time.sleep(5)
     logger.info("Finishing the test_search function")
+    time.sleep(2)
 
-    if __name__ == "__main__":
-        report_dir = os.path.join(os.getcwd(), "..", "Reports")
-        test_report_path = os.path.join(report_dir, "test_report.html")
-        pytest.main(["-v", f"--html={test_report_path}"])
+    # if __name__ == "__main__":
+    #     report_dir = os.path.join(os.getcwd(), "..", "Reports")
+    #     test_report_path = os.path.join(report_dir, "test_report.html")
+    #     pytest.main(["-v", f"--html={test_report_path}"])
+
+
 
 

@@ -1,10 +1,9 @@
+import pytest
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.select import Select
 import logging
 import inspect
 import os
-from selenium.webdriver.common.by import By
 
 
 class TestBase:
@@ -23,13 +22,14 @@ class TestBase:
         element = wait.until(EC.element_to_be_clickable(locator))
         return element
 
+    @staticmethod
     def get_logger(self):
         calling_function_name = inspect.stack()[1][3]
         logger = logging.getLogger(calling_function_name)
         logger.setLevel(logging.INFO)
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-        report_dir = os.path.join(os.getcwd(), "..", "Reports")
+        report_dir = os.path.join(os.getcwd(), "Reports")
         log_dir = os.path.join(report_dir, "Logs")
         if not os.path.exists(log_dir):
             os.makedirs(log_dir)
@@ -40,9 +40,9 @@ class TestBase:
         logger.addHandler(file_handler)
         return logger
 
-    def capture_screenshot(self, name):
-        report_dir = os.path.join(os.getcwd(), "..", "Reports")  # Move one level up (..)
-        screenshot_dir = os.path.join(os.getcwd(), "..", "Reports", "Screenshots")
+    def capture_screenshot(self, name, test_case_name):
+        report_dir = os.path.join(os.getcwd(), "Reports")  # Move one level up (..)
+        screenshot_dir = os.path.join(os.getcwd(),  "Reports", "Screenshots")
         # log_dir = os.path.join(report_dir, "Logs")
 
         if not os.path.exists(screenshot_dir):
@@ -50,11 +50,37 @@ class TestBase:
         # if not os.path.exists(log_dir):
             # os.makedirs(log_dir)
 
-        screenshot_path = os.path.join(screenshot_dir, f"{name}.png")
+        screenshot_path = os.path.join(screenshot_dir,  f"{test_case_name}_{name}.png")
         # log_file_path = os.path.join(log_dir, "logfiles.log")
 
         self.driver.save_screenshot(screenshot_path)
         # self.get_logger().addHandler(logging.FileHandler(log_file_path))
+
+    def clear_previous_reports_and_screenshots(self):
+        report_dir = os.path.join(os.getcwd(), "Reports")
+        screenshot_dir = os.path.join(report_dir, "Screenshots")
+        log_dir = os.path.join(report_dir, "Logs")
+
+        # Delete existing screenshots
+        if os.path.exists(screenshot_dir):
+            for file in os.listdir(screenshot_dir):
+                file_path = os.path.join(screenshot_dir, file)
+                try:
+                    if os.path.isfile(file_path):
+                        os.remove(file_path)
+                except Exception as e:
+                    print("Error while deleting file:", e)
+
+        # Delete existing logs
+        if os.path.exists(log_dir):
+            for file in os.listdir(log_dir):
+                file_path = os.path.join(log_dir, file)
+                try:
+                    if os.path.isfile(file_path):
+                        os.remove(file_path)
+                except Exception as e:
+                    print("Error while deleting file:", e)
+
 
 
 
